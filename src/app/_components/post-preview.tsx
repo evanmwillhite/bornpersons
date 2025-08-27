@@ -22,20 +22,48 @@ export function PostPreview({
   slug,
 }: Props) {
   return (
-    <div>
-      <div className="mb-5">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
+      <div className="relative overflow-hidden">
         <CoverImage slug={slug} title={title} src={coverImage} />
+        <div className="absolute top-4 left-4">
+          <span className="bg-stone-700 text-white px-3 py-1 rounded-full text-xs font-medium">
+            Blog
+          </span>
+        </div>
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link href={`/posts/${slug}`} className="hover:underline">
-          {title}
-        </Link>
-      </h3>
-      <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
+      
+      <div className="p-6">
+        <div className="mb-3">
+          <span className="text-stone-600 text-xs font-semibold uppercase tracking-wide">
+            Lifestyle
+          </span>
+        </div>
+        
+        <h3 className="text-xl font-bold text-stone-800 mb-3 leading-tight group-hover:text-stone-600 transition-colors font-playfair">
+          <Link href={`/posts/${slug}`}>
+            {title}
+          </Link>
+        </h3>
+        
+        <div className="text-sm text-stone-500 mb-3">
+          <DateFormatter dateString={date} />
+        </div>
+        
+        <p className="text-stone-600 text-sm leading-relaxed mb-4 line-clamp-3">
+          {excerpt}
+        </p>
+        
+        <div className="flex items-center justify-between">
+          <Avatar name={author.name} picture={author.picture} />
+          
+          <Link 
+            href={`/posts/${slug}`}
+            className="text-stone-600 hover:text-stone-700 text-sm font-medium group-hover:underline transition-colors"
+          >
+            Read More →
+          </Link>
+        </div>
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
     </div>
   );
 }
