@@ -36,7 +36,7 @@ export function AboutSection() {
             </div>
             
             <div className="mt-8 space-y-4">
-              <button className="bg-stone-700 hover:bg-stone-800 text-white px-8 py-3 rounded-full font-medium transition-colors duration-200">
+              <button className="bg-stone-700 hover:bg-stone-800 text-white px-8 py-3 rounded font-medium transition-colors duration-200">
                 More About Me
               </button>
               

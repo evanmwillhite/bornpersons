@@ -37,7 +37,7 @@ export default function AboutPage() {
             
             <h3 className="text-2xl font-bold text-amber-900 mb-4 font-playfair">
               What You'll Find Here
-            </p>
+            </h3>
             
             <ul className="list-disc list-inside text-lg text-amber-700 space-y-2 mb-6">
               <li>Professional insights and career advice</li>

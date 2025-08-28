@@ -45,7 +45,7 @@ export function PassionsSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {passions.map((passion, index) => (
             <div key={index} className="text-center group">
-              <div className={`w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br ${passion.color} flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300`}>
+              <div className={`w-20 h-20 mx-auto mb-6 rounded bg-gradient-to-br ${passion.color} flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300`}>
                 {passion.icon}
               </div>
               

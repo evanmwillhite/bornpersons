@@ -1,25 +1,8 @@
-# Lifestyle Blogger - Blog Starter App
+# Born Persons
 
-A modern, beautiful blog application built with Next.js that has been transformed to match the lifestyle blogger design aesthetic.
+A blog site built for Born Persons using Next.js and Markdown
 
-## ✨ Features
-
-### Modern Design
-- **Clean, Professional Layout**: Inspired by modern lifestyle blogger websites
-- **Responsive Design**: Mobile-first approach with beautiful desktop layouts
-- **Modern UI Components**: Cards, gradients, and smooth animations
-- **Warm Color Palette**: Amber, orange, and yellow tones for a welcoming feel
-
-### Key Sections
-- **Hero Introduction**: "I'm Sophia!" personal branding section
-- **Passions Showcase**: Marketing, Travel, Technology, and Wellness categories
-- **Featured Blog**: Highlighted main blog post with modern card design
-- **Latest Blogs**: Grid layout for recent blog posts
-- **About Section**: Personal story and mission statement
-- **Testimonials**: Reader feedback and social proof
-- **Professional Footer**: Social links and navigation
-
-### Technical Features
+## Technical Features
 - **Next.js 14**: Latest React framework with App Router
 - **TypeScript**: Full type safety
 - **Tailwind CSS**: Utility-first CSS framework
@@ -39,49 +22,17 @@ git clone <your-repo-url>
 cd blog-starter-app
 
 # Install dependencies
-npm install
-# or
 pnpm install
 
 # Start development server
-npm run dev
-# or
 pnpm dev
 ```
 
 ### Build for Production
 ```bash
-npm run build
-npm start
+pnpm run build
+pnpm start
 ```
-
-## 🎨 Design Philosophy
-
-This blog has been transformed from a basic Next.js example to a modern lifestyle blogger website featuring:
-
-- **Personal Branding**: "Sophia Ellis" persona with professional marketing background
-- **Content Categories**: Four main passion areas (Marketing, Travel, Technology, Wellness)
-- **Modern UI Elements**: Cards, gradients, shadows, and smooth transitions
-- **Professional Layout**: Clean navigation, hero sections, and organized content flow
-- **Social Integration**: Instagram handles and social media presence
-- **Warm Color Scheme**: Amber, orange, and yellow tones that create a welcoming, approachable feel
-
-## 📱 Responsive Design
-
-The design is fully responsive and includes:
-- Mobile-first approach
-- Tablet and desktop optimizations
-- Touch-friendly interactions
-- Accessible navigation
-
-## 🔧 Customization
-
-### Colors and Themes
-- **Primary**: Amber (#D97706) - Warm, welcoming, and professional
-- **Secondary**: Orange and Yellow tones for variety and warmth
-- **Text**: Dark amber for readability and warmth
-- **Backgrounds**: Soft amber and yellow tints for subtle contrast
-- **Accents**: Various amber gradient combinations
 
 ### Components
 All components are modular and can be easily customized:
@@ -116,7 +67,3 @@ Potential improvements could include:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.

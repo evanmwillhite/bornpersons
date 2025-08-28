@@ -40,7 +40,7 @@ export function HeroPost({
             <div className="relative">
               <CoverImage title={title} src={coverImage} slug={slug} />
               <div className="absolute top-4 left-4">
-                <span className="bg-stone-700 text-white px-3 py-1 rounded-full text-sm font-medium">
+                <span className="bg-stone-700 text-white px-3 py-1 rounded text-sm font-medium">
                   Featured
                 </span>
               </div>
@@ -75,7 +75,7 @@ export function HeroPost({
                 
                 <Link 
                   href={`/posts/${slug}`}
-                  className="inline-flex items-center px-6 py-3 bg-stone-700 hover:bg-stone-800 text-white font-medium rounded-full transition-colors duration-200"
+                  className="inline-flex items-center px-6 py-3 bg-stone-700 hover:bg-stone-800 text-white font-medium rounded transition-colors duration-200"
                 >
                   Read More
                   <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

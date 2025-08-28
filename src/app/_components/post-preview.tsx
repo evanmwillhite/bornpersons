@@ -26,7 +26,7 @@ export function PostPreview({
       <div className="relative overflow-hidden">
         <CoverImage slug={slug} title={title} src={coverImage} />
         <div className="absolute top-4 left-4">
-          <span className="bg-stone-700 text-white px-3 py-1 rounded-full text-xs font-medium">
+          <span className="bg-stone-700 text-white px-3 py-1 rounded text-xs font-medium">
             Blog
           </span>
         </div>

@@ -38,7 +38,7 @@ export function MoreStories({ posts }: Props) {
         {/* View All Button */}
         <div className="text-center mt-12">
           <Link href="/blog">
-            <button className="bg-white hover:bg-stone-50 text-stone-700 border-2 border-stone-700 px-8 py-3 rounded-full font-medium transition-colors duration-200">
+            <button className="bg-white hover:bg-stone-50 text-stone-700 border-2 border-stone-700 px-8 py-3 rounded font-medium transition-colors duration-200">
               View All Blogs
             </button>
           </Link>

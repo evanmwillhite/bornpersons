@@ -26,19 +26,19 @@ export default function BlogPage() {
           {/* Category Filter (Optional) */}
           <div className="mb-12 text-center">
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="px-6 py-2 rounded-full bg-primary text-white font-medium hover:bg-amber-700 transition-colors">
+              <button className="px-6 py-2 rounded font-medium hover:bg-amber-700 transition-colors">
                 All Posts
               </button>
-              <button className="px-6 py-2 rounded-full bg-white text-primary border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
+              <button className="px-6 py-2 rounded border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
                 Marketing
               </button>
-              <button className="px-6 py-2 rounded-full bg-white text-primary border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
+              <button className="px-6 py-2 rounded border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
                 Travel
               </button>
-              <button className="px-6 py-2 rounded-full bg-white text-primary border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
+              <button className="px-6 py-2 rounded border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
                 Technology
               </button>
-              <button className="px-6 py-2 rounded-full bg-white text-primary border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
+              <button className="px-6 py-2 rounded border-2 border-primary font-medium hover:bg-primary hover:text-white transition-colors">
                 Wellness
               </button>
             </div>
@@ -62,7 +62,7 @@ export default function BlogPage() {
           {/* Pagination or Load More */}
           {allPosts.length > 9 && (
             <div className="text-center mt-12">
-              <button className="bg-primary hover:bg-amber-700 text-white px-8 py-3 rounded-full font-medium transition-colors duration-200">
+              <button className="bg-primary hover:bg-amber-700 text-white px-8 py-3 rounded font-medium transition-colors duration-200">
                 Load More Posts
               </button>
             </div>
