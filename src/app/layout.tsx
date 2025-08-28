@@ -1,6 +1,6 @@
 import Footer from "@/app/_components/footer";
 import Header from "@/app/_components/header";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Playfair_Display } from "next/font/google";
 import cn from "classnames";
@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: `Lifestyle Blogger - ${CMS_NAME}`,
-  description: `A lifestyle blog sharing insights on travel, technology, wellness, and personal growth.`,
+  title: `Born Persons - A Charlotte Mason and Catholicism Blog`,
+  description: `A Charlotte Mason and Catholicism blog sharing insights on homeschooling, motherhood, and the truth, beauty, and goodness of the Catholic faith.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },

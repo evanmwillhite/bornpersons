@@ -11,27 +11,11 @@ export function AboutSection() {
             
             <div className="space-y-6 text-lg text-stone-600 leading-relaxed">
               <p>
-                I'm Sophia Ellis—a marketing professional passionate about exploring the world, 
-                embracing technology, enhancing personal growth, and nurturing wellness. Here, 
-                I share my adventures, insights, and tips to inspire and empower you.
+                I'm Amanda Willhite, a homeschooling mom of 4. I have been homeschooling using the Charlotte Mason method for 10 years. My famil joined the Catholic Church in 2020.
               </p>
               
               <p>
-                Whether you're seeking travel inspiration, tech updates, self-improvement strategies, 
-                or wellness advice, you're in the right place.
-              </p>
-              
-              <p>
-                Technology is another realm I'm deeply fascinated by. I enjoy diving into the latest 
-                innovations and understanding how they shape our lives and industries. Through my writing, 
-                I aim to demystify tech trends and provide practical insights that can enhance your 
-                daily life and career.
-              </p>
-              
-              <p>
-                This blog is more than just a collection of thoughts—it's a community. Whether you're 
-                here for travel tips, tech knowledge, or wellness advice, you'll find a space that 
-                welcomes curiosity and encourages growth.
+                I find the connections between Charlotte Mason and Catholicism to be fascinating. I'm excited to share my journey and insights with you.
               </p>
             </div>
             
@@ -39,13 +23,6 @@ export function AboutSection() {
               <button className="bg-stone-700 hover:bg-stone-800 text-white px-8 py-3 rounded font-medium transition-colors duration-200">
                 More About Me
               </button>
-              
-              <div className="flex items-center space-x-4">
-                <span className="text-stone-600">Follow me on Instagram</span>
-                <a href="#" className="text-stone-700 hover:text-stone-800 font-medium">
-                  @Sophia_e
-                </a>
-              </div>
             </div>
           </div>
           
@@ -54,11 +31,10 @@ export function AboutSection() {
             <div className="bg-gradient-to-br from-stone-100 to-stone-200 rounded-2xl p-8 lg:p-12">
               <div className="text-6xl mb-4">👋</div>
               <h3 className="text-2xl font-bold text-stone-800 mb-4 font-playfair">
-                Let's learn, explore, and thrive together!
+                Want to get in touch?
               </h3>
               <p className="text-stone-600 mb-6">
-                Connect with 4000+ like-minded individuals and be part of a community that values 
-                growth, curiosity, and empowerment.
+                The newsletter is a great way to stay up to date with my latest posts and insights.
               </p>
               
               {/* Subscribe Form */}

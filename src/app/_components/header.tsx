@@ -30,9 +30,9 @@ const Header = () => {
 
           {/* Subscribe Button */}
           <div className="hidden md:flex">
-            <button className="bg-stone-700 hover:bg-stone-800 text-white px-6 py-2 rounded text-sm font-medium transition-colors">
+            <Link href='/contact' className="bg-stone-700 hover:bg-stone-800 text-white px-6 py-2 rounded text-sm font-medium transition-colors">
               Subscribe
-            </button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}

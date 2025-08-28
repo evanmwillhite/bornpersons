@@ -1,5 +1,3 @@
-import { CMS_NAME } from "@/lib/constants";
-
 export function Intro() {
   return (
     <section className="py-40">
@@ -19,30 +17,10 @@ export function Intro() {
           </div>
 
           {/* Call to Action */}
-          <div className="mb-12">
+          {/* <div className="mb-12">
             <button className="bg-stone-700 hover:bg-stone-800 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg rounded">
               Get Inspired
             </button>
-          </div>
-
-          {/* Stats Section */}
-          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-stone-700 mb-2 font-playfair">12K+</div>
-              <div className="text-sm text-stone-600">Followers</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-stone-700 mb-2 font-playfair">08K+</div>
-              <div className="text-sm text-stone-600">Subscribers</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-stone-700 mb-2 font-playfair">13K+</div>
-              <div className="text-sm text-stone-600">Readers</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-stone-700 mb-2 font-playfair">09K+</div>
-              <div className="text-sm text-stone-600">Engagement</div>
-            </div>
           </div> */}
         </div>
       </div>
