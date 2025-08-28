@@ -2,12 +2,12 @@ import { getAllPosts, getPostsByTag, getAllTags } from "@/lib/api";
 import { PostPreview } from "@/app/_components/post-preview";
 import { TagFilter } from "@/app/_components/tag-filter";
 
-interface BlogPageProps {
-  searchParams: { tag?: string };
-}
-
-export default function BlogPage({ searchParams }: BlogPageProps) {
-  const { tag } = searchParams;
+export default async function BlogPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ tag?: string }>;
+}) {
+  const { tag } = await searchParams;
   const allPosts = getAllPosts();
   const allTags = getAllTags();
   
